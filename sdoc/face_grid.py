@@ -26,7 +26,7 @@ all_faces = [right_c0_r0, right_c0_r1, right_c1_r0, right_c1_r1, right_c1_r2, to
 
 # set a border in all faces
 for f in all_faces:
-    f.margin_border.width = 1
+    f.border.width = 1
     f.margin_bottom = 5
     f.margin_top = 5
     f.margin_right = 10
